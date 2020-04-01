@@ -28,7 +28,10 @@ This script will grab the latest email signature template and generate your sign
 2. Select all (Ctrl+A) and copy it (Ctrl+C)
 3. Open the Gmail web client
 4. Open the settings (cog icon in the top right corner)
+
 ![gmail-settings](https://i.imgur.com/N0wtfDF.png)
+
 5. In the "General" tab, scroll down to the "Signature" section
 6. Paste (Ctrl+V) your signature in the textarea
-![add-gmail-signature](https://i.imgur.com/md8ScD4.gifv)
+
+![add-gmail-signature](https://i.imgur.com/md8ScD4.gif)
