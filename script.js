@@ -5,13 +5,7 @@ document.getElementById("signatureForm").addEventListener("submit", function(eve
   const fullName = document.getElementById("fullName").value;
   const phoneNumber = document.getElementById("phoneNumber").value;
   const position = document.getElementById("position").value;
-
-  // Define the email signature template
-  //const signatureTemplate = `
-  //    <p><strong>${fullName}</strong></p>
-  //    <p>${position}</p>
-  //    <p>Phone: ${phoneNumber}</p>
-  //`;
+  const tokenizedFullNameWithDash = fullName.toLowerCase().replace(/\s/g, "-");
 
   const signatureTemplate = `
     <div>
@@ -30,7 +24,7 @@ document.getElementById("signatureForm").addEventListener("submit", function(eve
                     <tr>
                       <td>
                         <a href="tel:+66 (0)2 258 3649" target="_blank" style="font-size: 12px; color: #0F0033; text-decoration: none !important; display: block; margin-bottom: 4px; margin-top: 12px;">${phoneNumber}</a>
-                        <a href="https://nimblehq.co/?utm_source=email&utm_medium=email-signature&utm_campaign=your-name" target="_blank" style="font-size: 12px; color: #0F0033; text-decoration: none !important; display: block; margin-bottom: 12px;">nimblehq.co</a>
+                        <a href="https://nimblehq.co/?utm_source=email&utm_medium=email-signature&utm_campaign=${tokenizedFullNameWithDash}" target="_blank" style="font-size: 12px; color: #0F0033; text-decoration: none !important; display: block; margin-bottom: 12px;">nimblehq.co</a>
                       </td>
                     </tr>
                     <tr>
