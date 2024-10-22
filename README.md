@@ -18,7 +18,7 @@ Note that the website URL contains UTM parameters used to track web traffic to o
 
 ## Getting Your Signature
 
-To generate your signature, head over to [https://nimble-email-signature.herokuapp.com/](https://nimble-email-signature.herokuapp.com/)
+To generate your signature, head over to [https://nimblehq.github.io/email-signature](https://nimblehq.github.io/email-signature)
 
 This script will grab the latest email signature template and generate your signature.
 
